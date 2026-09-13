@@ -3,145 +3,312 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gökhan Ceylan</title>
+  <title>Gokhan Ceylan · Computer Scientist</title>
+  <meta name="description" content="Gokhan Ceylan, Computer Science graduate, ACM-published HCI researcher, and full-stack/AI/blockchain developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="intro">
-    <h1>Gökhan Ceylan</h1>
-    <p class="subtitle">Applied Computer Science & Artificial Intelligence</p>
-    <p class="summary">
-      I don’t have all the answers. I focus on spotting what’s broken, asking the right questions, and building something small to see if it helps. I work fast, learn quickly, and adapt when things change.
-    </p>
-    <a href="./GokhanCeylan-CV.pdf" class="cv-button" download aria-label="Download Gökhan Ceylan CV">Download CV</a>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav">
+      <a href="#top" class="nav-brand">GC<span class="nav-brand-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a href="assets/GokhanCeylan-CV.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Résumé</a>
+        <button class="nav-burger" id="navBurger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/GokhanCeylan-CV.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#awards">Awards</a></li>
-      <li><a href="#erasmus">Erasmus+</a></li>
-      <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main id="top">
 
-  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-kicker reveal">Rome, Italy</p>
+        <h1 class="hero-title">
+          <span class="reveal">Gokhan Ceylan</span>
+        </h1>
+        <p class="hero-role reveal">Computer Scientist: AI, HCI &amp; Full-Stack Development</p>
+        <p class="hero-lede reveal">
+          I graduated 110/110 cum laude from Sapienza University of Rome and publish first-author
+          research on speech-driven human-computer interaction. Off the page, I build fast: full-stack
+          apps, blockchain products, and applied AI systems. I’ve attended 80+ international hackathons
+          along the way.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">See the work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num" data-count="110">0</span><span class="stat-suffix">/110</span>
+            <span class="stat-label">cum laude</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="80">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">hackathons</span>
+          </div>
+          <div class="stat">
+            <span class="stat-suffix">$</span><span class="stat-num" data-count="78">0</span><span class="stat-suffix">k+</span>
+            <span class="stat-label">in prizes won</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="1">0</span>
+            <span class="stat-label">ACM publication</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <div class="hero-photo">
+          <img src="assets/headshot.png" alt="Portrait of Gokhan Ceylan" />
+        </div>
+        <div class="hero-photo-ring"></div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
 
-    <section id="projects">
-      <h2>Selected Projects</h2>
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <span class="eyebrow">01. About</span>
+        <h2>Find what’s broken. Fix it small first.</h2>
+      </div>
+      <p class="about-text reveal">
+        I focus on spotting what’s broken, asking the right questions, and building something small
+        to see if it helps. That instinct has taken me from freelance web work in Istanbul, to a
+        research lab in Rome, to hackathon stages across the world. I work across full-stack
+        development, blockchain products, mobile apps, and applied AI/LLM systems, and I care about
+        the parts that are easy to skip: accessibility, offline reliability, and interfaces that hold
+        up for people who aren't native speakers of the system they're using.
+      </p>
+      <div class="about-facts reveal">
+        <div class="fact-card">
+          <span class="fact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+          </span>
+          <strong>Education</strong>
+          <span>B.Sc. Applied Computer Science &amp; AI, Sapienza University of Rome, 110/110 cum laude</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6M10 3v6.5L4.5 19a1 1 0 0 0 .9 1.5h13.2a1 1 0 0 0 .9-1.5L14 9.5V3"/><path d="M7.5 15h9"/></svg>
+          </span>
+          <strong>Research</strong>
+          <span>Gamification Lab, Sapienza: speech-driven HCI, first-author ACM ICMI 2026 paper</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4"/><path d="M12 13v3M9 20h6M9.5 16h5l.5 4H9l.5-4Z"/></svg>
+          </span>
+          <strong>Competitions</strong>
+          <span>80+ international hackathons, 15+ podium finishes, $78,000+ in cash prizes</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg>
+          </span>
+          <strong>Languages</strong>
+          <span>Turkish (native), English (advanced)</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          </span>
+          <strong>Erasmus+</strong>
+          <span>Lithuania, Italy, France, Romania, Poland, Norway</span>
+        </div>
+      </div>
+    </section>
 
-      <div class="project">
-        <h3>Somnia Arcade</h3>
-        <p>Somnia Arcade is a fast, fully on-chain mini-game platform built for the Somnia Testnet. Every move from revealing tiles to cashing out is recorded on-chain. Fairness is enforced with a commit–reveal randomness model using future block data. (Testnet!!)</p>
-        <div class="links">
-          <a href="https://somniaarcade.com" target="_blank">Website</a>
-          <a href="https://dorahacks.io/buidl/29985" target="_blank">Hackathon Page</a>
-          <a href="https://www.youtube.com/watch?v=CUiuyEotrM4" target="_blank">Demo</a>
+    <!-- RESEARCH -->
+    <section id="research" class="section research">
+      <div class="section-head reveal">
+        <span class="eyebrow">02. Research</span>
+        <h2>Making systems work for people the defaults ignore</h2>
+      </div>
+
+      <div class="research-role reveal">
+        <div class="research-role-main">
+          <div class="research-role-meta">
+            <span class="research-tag">Nov 2025 - Present</span>
+            <span class="research-tag research-tag-muted">Rome, Italy</span>
+          </div>
+          <h3>Developer &amp; Thesis Researcher, Gamification Lab</h3>
+          <p class="research-org">Sapienza University of Rome, under Prof. Emanuele Panizzi</p>
+          <p>
+            Building an offline, multilingual speech-driven semantic input module for NavIndoor, Sapienza's
+            campus indoor-navigation app. International students routinely mispronounce or mis-transcribe
+            Italian room names, and basement floors kill Wi-Fi and cellular signal alike. So the module
+            runs entirely on-device, normalizing spoken queries with phonetic correction and fuzzy matching
+            against a 243-room repository across four campus buildings. I also built the app's search
+            interface in Flutter, and designed and shipped the project's public-facing bilingual (EN/IT)
+            marketing website.
+          </p>
+          <div class="research-links">
+            <a href="assets/ceylan-thesis.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-outline">Read the full thesis ↗</a>
+          </div>
+        </div>
+        <div class="research-role-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8 21h8"/></svg>
         </div>
       </div>
 
-      <div class="project">
-        <h3>SeiKit App</h3>
-        <p>SeiKit is a voice-driven ambient mixer that saves your sound “scenes” on the Sei EVM testnet. You speak; it switches GIF scenes, stacks up to six loops, and writes or loads your mix (scene + layers + volumes) directly on chain. Each wallet has three save slots.</p>
-        <div class="links">
-          <a href="https://seikitapp.com" target="_blank">Website</a>
-          <a href="https://dorahacks.io/buidl/31297" target="_blank">Hackathon Page</a>
-          <a href="https://youtu.be/OGs72C_argM" target="_blank">Demo</a>
+      <div class="publication-card reveal">
+        <div class="publication-main">
+          <div class="publication-badge">ACM ICMI Companion '26</div>
+          <h3>A Multilingual Speech-Driven Semantic Input Module for University Indoor Wayfinding</h3>
+          <p class="publication-authors">Gokhan Ceylan, Gabriella Trasciatti, and Emanuele Panizzi. 2026.</p>
+          <p class="publication-abstract">
+            An offline speech-driven semantic input module for indoor navigation at Sapienza University
+            of Rome, built to resolve Italian room names that standard speech-to-text systems and
+            non-native speakers both struggle with. It runs entirely on-device, with no cloud dependency.
+            Evaluated on 150 spoken queries: 92% top-candidate accuracy, resolving in 8.0ms on consumer
+            mobile hardware.
+          </p>
+          <div class="publication-links">
+            <a href="https://doi.org/10.1145/3776591.3832512" target="_blank" rel="noopener" class="btn btn-sm btn-primary">View on ACM DL ↗</a>
+            <a href="assets/icmi26-paper.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">Download PDF ↗</a>
+          </div>
+        </div>
+        <div class="publication-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3h7l4 4v14H7V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6M9 8h2"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="section-head reveal">
+        <span class="eyebrow">03. Projects</span>
+        <h2>Shipped things, mostly under deadline pressure</h2>
+        <p class="section-sub">A mix of personal builds and international hackathon entries. Filter by domain, click any card for the full writeup.</p>
+      </div>
+
+      <div class="filter-bar reveal" id="filterBar">
+        <button class="filter-chip is-active" data-filter="all">All</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+      <button class="show-more-btn" id="showMoreBtn" hidden>Show all projects</button>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards" class="section awards">
+      <div class="section-head reveal">
+        <span class="eyebrow">04. Awards</span>
+        <h2>80+ hackathons is a lot of late nights</h2>
+      </div>
+
+      <div class="awards-stats reveal">
+        <div class="award-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v2M16 4v2"/></svg>
+          <span>80+</span>Hackathons attended
+        </div>
+        <div class="award-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 15 8l6 1-4.5 4.5L17.5 20 12 17l-5.5 3 1-6.5L3 9l6-1 3-6Z"/></svg>
+          <span>15+</span>Podium finishes
+        </div>
+        <div class="award-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5c0-1 1-1.8 2.5-1.8s2.5.6 2.5 1.6c0 2.2-5 1.4-5 3.6 0 1 1 1.8 2.5 1.8s2.5-.7 2.5-1.7"/></svg>
+          <span>$78,000+</span>Cash prizes won
         </div>
       </div>
 
-      <div class="project">
-        <h3>Codexa</h3>
-        <p>Codexa was built to make AI answers reliable, using real data instead of guesses. Codexa connects Elastic Search with Google Gemini. You upload PDFs or text files, Codexa indexes them in Elastic, finds context, and Gemini summarizes it and giving you a verified, evidence-based answer. (Currently under development!!)</p>
-        <div class="links">
-          <a href="https://thecodexa.com" target="_blank">Website</a>
+      <div class="awards-columns">
+        <div class="awards-group reveal">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4"/><path d="M12 13v3M9 20h6M9.5 16h5l.5 4H9l.5-4Z"/></svg>TRON Grand Hackathon (Seasons 3-7)</h3>
+          <ul class="award-list" id="tronAwards"></ul>
+        </div>
+        <div class="awards-group reveal">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4"/><path d="M12 13v3M9 20h6M9.5 16h5l.5 4H9l.5-4Z"/></svg>Other Competitions</h3>
+          <ul class="award-list" id="otherAwards"></ul>
         </div>
       </div>
     </section>
 
-    <section id="awards">
-      <h2>Awards & Competitions</h2>
-
-      <ul>
-        <li><strong>Winner</strong> – <a href="https://coderspace.io/en/events/intertech-metaverse-hackathon/" target="_blank">Intertech Metaverse Hackathon</a> (NatureForetold, #Meta Quest II)</li>
-        <li><strong>2nd Place</strong> – HSBC Engagement Challenge (National level)</li>
-
-        <li>
-          <strong><a href="https://trons3.devpost.com/" target="_blank">TRON Hackathon Season 3</a></strong>
-          <ul>
-            <li><a href="https://devpost.com/software/nature-foretold" target="_blank">NatureForetold</a> – 2nd Place ($9,000, Community) + 5th Place ($5,000, Judges), Ecosystem</li>
-            <li><a href="https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" target="_blank">MetaVote</a> – 3rd Place ($8,000, Community) + 3rd Place ($10,000, Judges), Ecosystem</li>
-          </ul>
-        </li>
-
-        <li>
-          <strong><a href="https://dorahacks.io/hackathon/hackatrons4" target="_blank">Season 4</a></strong>
-          <ul>
-            <li><a href="https://forum.trondao.org/t/auroraqua-save-water-today/17328" target="_blank">AurorAqua</a> – 2nd Place ($5,000, Community), Eco-friendly</li>
-            <li><a href="https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" target="_blank">MusiCoinCity</a> – 2nd Place ($15,000, Judges) + 3rd Place ($4,000, Community), Eco-friendly</li>
-          </ul>
-        </li>
-
-        <li>
-          <strong><a href="https://forum.trondao.org/t/congrats-to-hackatron-s5-qualifiers-and-winners/22248" target="_blank">Season 5</a></strong>
-          <ul>
-            <li><a href="https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" target="_blank">DreamVerser</a> – 5th Place ($3,000, Community), Artistry</li>
-            <li><a href="https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" target="_blank">Triton</a> – Determination Prize ($4,500, Judges), Web3</li>
-          </ul>
-        </li>
-
-        <li>
-          <strong><a href="https://trons6.devpost.com/" target="_blank">Season 6</a></strong>
-          <ul>
-            <li><a href="https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" target="_blank">QuestArcade</a> – Engagement Prize ($5,000, Special Mention), GameFi</li>
-          </ul>
-        </li>
-
-        <li>
-          <strong><a href="https://hackatron7.devpost.com/" target="_blank">Season 7</a></strong>
-          <ul>
-            <li><a href="https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" target="_blank">TronPixels</a> – 3rd Place ($5,000, Community), Artistry</li>
-            <li><a href="https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" target="_blank">IdleTron</a> – 5th Place ($3,000, Community), Artistry</li>
-          </ul>
-        </li>
-
-        <li><strong>3rd Place</strong> – Arçelik “Step Forward” Challenge</li>
-        <li><strong>2nd Place</strong> – Hack4MMO</li>
-        <li><strong>2nd Place</strong> – KFC Ideathon</li>
-        <li><strong>3rd Place</strong> – Malware Arena (Prize: $1,500)</li>
-      </ul>
-    </section>
-
-    <section id="erasmus">
-      <h2>Erasmus+ Projects</h2>
-      <ul>
-        <li><a href="./youthpass/Lithuania-Youthpass.pdf" target="_blank">Lithuania</a> – Digital Inclusion Exchange</li>
-        <li><a href="./youthpass/Italy-Youthpass.pdf" target="_blank">Italy</a> – Sports and Youth Empowerment</li>
-        <li><a href="./youthpass/France-Youthpass.pdf" target="_blank">France</a> – Cultural Dialogue Workshop</li>
-        <li><a href="./youthpass/Romania-Youthpass.pdf" target="_blank">Romania</a> – Green Technology Youth Camp</li>
-        <li><a href="./youthpass/Poland-Youthpass.pdf" target="_blank">Poland</a> – Democracy & Participation Forum</li>
-        <li>Norway – Resilient Communities Project</li>
-      </ul>
-    </section>
-
-    <section id="certificates">
-      <h2>Certificates</h2>
-      <ul>
-        <li>Responsive Web Design – FreeCodeCamp</li>
-        <li>Python & Data – Coursera</li>
-        <li>Digital Marketing – Google Digital Garage</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:ceylan.2124426@studenti.uniroma1.it">ceylan.2124426@studenti.uniroma1.it</a></p>
-      <p>Portfolio: <a href="https://gokhancey.github.io" target="_blank">gokhancey.github.io</a></p>
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-grid">
+        <div class="contact-inner reveal">
+          <span class="eyebrow">05. Contact</span>
+          <h2>Let's talk about a lab, a role, or a program</h2>
+          <p>
+            I'm applying to research-driven M.S. programs in Computer Science, AI, and Software
+            Engineering for Fall 2027. If you're admissions, faculty, or just curious about the work,
+            my inbox is open.
+          </p>
+          <div class="contact-actions">
+            <a href="mailto:ceylan.gokhan01@gmail.com" class="btn btn-primary">ceylan.gokhan01@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <a href="https://github.com/gokhancey" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-row-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.79-.25.79-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.21.66.8.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></span>
+            <span class="contact-row-text"><strong>GitHub</strong><span>Code and prototypes</span></span>
+            <span class="contact-row-arrow">↗</span>
+          </a>
+          <a href="assets/GokhanCeylan-CV.pdf" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3h7l4 4v14H7V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6M9 8h2"/></svg></span>
+            <span class="contact-row-text"><strong>Resume</strong><span>Full CV, one page</span></span>
+            <span class="contact-row-arrow">↗</span>
+          </a>
+          <a href="https://doi.org/10.1145/3776591.3832512" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4"/><path d="M12 13v3M9 20h6M9.5 16h5l.5 4H9l.5-4Z"/></svg></span>
+            <span class="contact-row-text"><strong>ACM Publication</strong><span>ICMI Companion '26</span></span>
+            <span class="contact-row-arrow">↗</span>
+          </a>
+        </div>
+      </div>
     </section>
 
   </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Gokhan Ceylan</p>
+    <a href="#top" class="footer-top">Back to top ↑</a>
+  </footer>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body">
+        <div class="modal-tags" id="modalTags"></div>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="modal-awards" id="modalAwards"></div>
+        <div class="modal-links" id="modalLinks"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
