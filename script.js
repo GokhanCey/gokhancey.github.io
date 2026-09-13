@@ -68,6 +68,24 @@ const PROJECTS = [
     links: [],
   },
   {
+    id: "navindoor-voice-module",
+    name: "NavIndoor Voice Module",
+    tagline: "Offline speech-driven room search, EN/IT",
+    description:
+      "The offline, multilingual speech-driven semantic input module behind NavIndoor's search. Spoken queries are cleaned and normalized, then matched against a 243-room repository using phonetic correction and fuzzy matching, resolving in 8.0ms on consumer mobile hardware with 92% top-candidate accuracy across 150 test queries. Published as a first-author paper at ACM ICMI 2026.",
+    tags: ["Research", "AI/LLM"],
+    stack: "Flutter",
+    status: "ACM ICMI 2026",
+    image: "assets/projects/navindoor-voicemodule.png",
+    thumbnail: "assets/projects/navindoor-voicemodule-thumb.png",
+    initial: "N",
+    awards: [],
+    links: [
+      { label: "Read the thesis ↗", url: "assets/ceylan-thesis.pdf" },
+      { label: "View on ACM DL ↗", url: "https://doi.org/10.1145/3776591.3832512" },
+    ],
+  },
+  {
     id: "natureforetold",
     name: "NatureForetold",
     tagline: "Ecosystem-track build, later adapted for Meta Quest II",
