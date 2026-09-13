@@ -207,6 +207,26 @@ const PROJECTS = [
     links: [{ label: "Website ↗", url: "https://thecodexa.com" }],
   },
   {
+    id: "iwas",
+    name: "IWAS",
+    tagline: "A permanent wall of marks, stored on Walrus",
+    description:
+      "A wall where people leave a permanent mark: written text or a drawing, stored forever on the Walrus decentralized network and indexed by a Sui smart contract so anyone can see it. Claude reads each mark to identify the emotion behind it, and MemWal keeps that semantic memory searchable across sessions. Built with Lorenzo Porcelli.",
+    tags: ["Web3", "AI/LLM"],
+    stack: "React, Sui, Walrus, Claude API",
+    status: "Testnet",
+    image: "assets/projects/iwas.png",
+    thumbnail: "assets/projects/iwas-thumb.png",
+    initial: "I",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://iwas.app/" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/iwas" },
+      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=oxmX_fY8QaI" },
+      { label: "Project page ↗", url: "https://www.deepsurge.xyz/projects/a9f6d2de-8093-4e2c-8bc6-29fe5a4425d4" },
+    ],
+  },
+  {
     id: "somnia-arcade",
     name: "Somnia Arcade",
     tagline: "On-chain arcade with live participation",
