@@ -53,15 +53,15 @@ const PROJECTS = [
     links: [{ label: "Website ↗", url: "https://thecodexa.com" }],
   },
   {
-    id: "navindoor",
-    name: "NavIndoor",
+    id: "navindoor-website",
+    name: "NavIndoor Website",
     tagline: "Public site for Sapienza's indoor wayfinding research",
     description:
       "The public-facing bilingual (EN/IT) marketing site for NavIndoor, the Gamification Lab's campus indoor-navigation project. Built to introduce the app and the underlying research, including the offline, multilingual speech-driven search module, to students and visitors.",
     tags: ["Research", "Full-Stack"],
     stack: "Astro",
     status: "In development",
-    image: null,
+    image: "assets/projects/navindoor-website.png",
     initial: "N",
     awards: [],
     links: [],
