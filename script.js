@@ -54,17 +54,21 @@ const PROJECTS = [
     ],
   },
   {
-    id: "metavote",
-    name: "MetaVote",
+    id: "metavotepoll",
+    name: "MetaVotePoll",
     tagline: "Voting platform concept for the Ecosystem track",
     description: "A modern voting platform concept built for TRON Hackathon Season 3's Ecosystem track.",
     tags: ["Web3"],
     stack: "TRON blockchain",
     status: "TRON S3",
-    image: null,
+    image: "assets/projects/metavotepoll.png",
+    thumbnail: "assets/projects/metavotepoll-thumb.png",
     initial: "M",
     awards: ["3rd Place ($8,000, Community) and 3rd Place ($10,000, Judges), TRON S3"],
-    links: [{ label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" }],
+    links: [
+      { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
+      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
+    ],
   },
   {
     id: "natureforetold",
@@ -225,7 +229,7 @@ const PROJECTS = [
 
 const TRON_AWARDS = [
   { name: "NatureForetold", place: "2nd + 5th Place · $14,000" },
-  { name: "MetaVote", place: "3rd Place ×2 · $18,000" },
+  { name: "MetaVotePoll", place: "3rd Place ×2 · $18,000" },
   { name: "AurorAqua", place: "2nd Place · $5,000" },
   { name: "MusiCoinCity", place: "2nd + 3rd Place · $19,000" },
   { name: "DreamVerser", place: "5th Place · $3,000" },
