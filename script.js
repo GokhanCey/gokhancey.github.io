@@ -223,7 +223,6 @@ const PROJECTS = [
       { label: "Live site ↗", url: "https://iwas.app/" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/iwas" },
       { label: "Demo ↗", url: "https://www.youtube.com/watch?v=oxmX_fY8QaI" },
-      { label: "Project page ↗", url: "https://www.deepsurge.xyz/projects/a9f6d2de-8093-4e2c-8bc6-29fe5a4425d4" },
     ],
   },
   {
