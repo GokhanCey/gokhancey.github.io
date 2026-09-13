@@ -62,6 +62,7 @@ const PROJECTS = [
     stack: "Astro",
     status: "In development",
     image: "assets/projects/navindoor-website.png",
+    thumbnail: "assets/projects/navindoor-website-thumb.png",
     initial: "N",
     awards: [],
     links: [],
@@ -243,7 +244,8 @@ function renderFilters() {
 
 function projectMedia(project, isModal) {
   if (project.image) {
-    return `<img src="${project.image}" alt="${project.name} screenshot" />`;
+    const src = isModal ? project.image : project.thumbnail || project.image;
+    return `<img src="${src}" alt="${project.name} screenshot" />`;
   }
   const hue = hashHue(project.id);
   return `<div class="project-media-mono" style="background: linear-gradient(135deg, hsl(${hue} 45% 22%), hsl(${hue + 40} 40% 14%))">${project.initial}${
