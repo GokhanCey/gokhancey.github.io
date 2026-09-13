@@ -121,11 +121,14 @@ const PROJECTS = [
     tags: ["Web3"],
     stack: "TRON blockchain",
     status: "TRON S4",
-    image: null,
+    image: "assets/projects/musicoincity.png",
+    thumbnail: "assets/projects/musicoincity-thumb.png",
     initial: "M",
     awards: ["2nd Place ($15,000, Judges) and 3rd Place ($4,000, Community), TRON S4"],
     links: [
+      { label: "Source ↗", url: "https://github.com/gokhancey/MusiCoinCity" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
+      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=ANK0Eddk_Ko" },
     ],
   },
   {
