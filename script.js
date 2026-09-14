@@ -72,7 +72,7 @@ const PROJECTS = [
   },
   {
     id: "natureforetold",
-    name: "NatureForetold",
+    name: "Nature Foretold",
     tagline: "Ecosystem-track build, later adapted for Meta Quest II",
     description:
       "Built for TRON Hackathon Season 3's Ecosystem track, then adapted for Meta Quest II and entered into the Intertech Metaverse Hackathon.",
@@ -343,7 +343,7 @@ const PROJECTS = [
 ];
 
 const TRON_AWARDS = [
-  { name: "NatureForetold", place: "2nd + 5th Place · $14,000" },
+  { name: "Nature Foretold", place: "2nd + 5th Place · $14,000" },
   { name: "MetaVotePoll", place: "3rd Place ×2 · $18,000" },
   { name: "AurorAqua", place: "2nd Place · $5,000" },
   { name: "MusiCoinCity", place: "2nd + 3rd Place · $19,000" },
