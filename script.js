@@ -276,7 +276,7 @@ const PROJECTS = [
       { label: "Live site ↗", url: "https://eterna-rust.vercel.app" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/Eterna" },
       { label: "Demo ↗", url: "https://youtu.be/ZAbGLFOoDc8" },
-      { label: "Hackathon page ↗", url: "https://taikai.network/en/amadeus/hackathons/amadeus/overview" },
+      { label: "Hackathon page ↗", url: "https://taikai.network/amadeus/hackathons/amadeus/projects/cmjk7okli00opgpl2tkfm15ts/idea" },
     ],
   },
   {
