@@ -33,7 +33,7 @@ const PROJECTS = [
     thumbnail: "assets/projects/navindoor-website-thumb.png",
     initial: "N",
     awards: [],
-    links: [],
+    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/NavIndoor-website" }],
   },
   {
     id: "musiccoincity",
@@ -86,7 +86,7 @@ const PROJECTS = [
       "2nd Place ($9,000, Community) and 5th Place ($5,000, Judges), TRON S3",
       "Winner, Intertech Metaverse Hackathon (prize: Meta Quest 2 VR)",
     ],
-    links: [],
+    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/NatureForeTold" }],
   },
   {
     id: "questarcade",
@@ -222,7 +222,10 @@ const PROJECTS = [
     image: null,
     initial: "C",
     awards: [],
-    links: [{ label: "Website ↗", url: "https://thecodexa.com" }],
+    links: [
+      { label: "Website ↗", url: "https://thecodexa.com" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/Codexa" },
+    ],
   },
   {
     id: "iwas",
