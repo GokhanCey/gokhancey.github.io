@@ -226,6 +226,79 @@ const PROJECTS = [
     ],
   },
   {
+    id: "ecoledger",
+    name: "EcoLedger",
+    tagline: "Local PDF-to-Excel converter for Italian accountants",
+    description:
+      "A desktop app that converts Italian bank statement PDFs (Intesa Sanpaolo, UniCredit, BancoBPM, and more) into clean, audit-ready Excel files. Built for a Business & CS course: everything runs locally on the accountant's own machine, so client data never touches a server. Shipped with a full business model canvas alongside the build.",
+    tags: ["Full-Stack"],
+    stack: "Electron, Node.js",
+    status: "Desktop App",
+    image: "assets/projects/ecoledger.png",
+    thumbnail: "assets/projects/ecoledger-thumb.png",
+    initial: "E",
+    awards: [],
+    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/EcoLedger" }],
+  },
+  {
+    id: "roomtab",
+    name: "RoomTab",
+    tagline: "An AI fairness engine for splitting shared costs",
+    description:
+      "Handles the messy, real-life parts of splitting a bill: the roommate who arrived late, the vegan who skipped the steak, the one who pays nothing. Gemini 2.0 Flash reads the situation to extract context, then a deterministic settlement engine does the actual math, keeping the two separated so the numbers never hallucinate. Every decision is logged to Opik for full observability.",
+    tags: ["AI/LLM", "Full-Stack"],
+    stack: "Next.js, Gemini 2.0 Flash, Opik",
+    status: "Prototype",
+    image: "assets/projects/roomtab.png",
+    thumbnail: "assets/projects/roomtab-thumb.png",
+    initial: "R",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://room-tab.vercel.app/" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/RoomTab" },
+      { label: "Demo ↗", url: "https://youtu.be/DkIFt4YB28s" },
+    ],
+  },
+  {
+    id: "eterna",
+    name: "Eterna",
+    tagline: "Autonomous AI agents that live on-chain, not on a server",
+    description:
+      "A platform for AI personalities that persist on the Amadeus consensus layer instead of a rented server: every inference is treated as a transaction, and an agent's memory is stored permanently on Arweave so it keeps existing even if the original app disappears. Built for the Amadeus Genesis Hack, pairing a working today-prototype with a simulation of the network's future on-chain inference (uPoW).",
+    tags: ["Web3", "AI/LLM"],
+    stack: "Next.js, Amadeus, Arweave",
+    status: "Amadeus Genesis Hack",
+    image: "assets/projects/eterna.png",
+    thumbnail: "assets/projects/eterna-thumb.png",
+    initial: "E",
+    awards: ["Winner, Amadeus Genesis Hack ($15,000)"],
+    links: [
+      { label: "Live site ↗", url: "https://eterna-rust.vercel.app" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/Eterna" },
+      { label: "Demo ↗", url: "https://youtu.be/ZAbGLFOoDc8" },
+      { label: "Hackathon page ↗", url: "https://taikai.network/en/amadeus/hackathons/amadeus/overview" },
+    ],
+  },
+  {
+    id: "pixelafrica",
+    name: "PixelAfrica",
+    tagline: "Tracking donated blood from collection to transfusion",
+    description:
+      "A blood-donation traceability system built on Hedera Hashgraph: every bag gets registered, tracked through transit, and verified at the hospital, with each step written to the Hedera Consensus Service and pulled back through Mirror Node APIs. No backend database, wallet-based role authentication via HashConnect, and a public page for anyone to verify a bag's full history by QR or ID.",
+    tags: ["Web3"],
+    stack: "Hedera Hashgraph, HashConnect",
+    status: "Prototype",
+    image: "assets/projects/pixelafrica.png",
+    thumbnail: "assets/projects/pixelafrica-thumb.png",
+    initial: "P",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://pixel-africa.vercel.app" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/pixel-africa" },
+      { label: "Demo ↗", url: "https://youtu.be/7joHzZael3o" },
+    ],
+  },
+  {
     id: "somnia-arcade",
     name: "Somnia Arcade",
     tagline: "On-chain arcade with live participation",
@@ -259,6 +332,7 @@ const TRON_AWARDS = [
 ];
 
 const OTHER_AWARDS = [
+  { name: "Eterna, Amadeus Genesis Hack", place: "Winner · $15,000" },
   { name: "Intertech Metaverse Hackathon", place: "Winner" },
   { name: "HSBC Engagement Challenge", place: "2nd (National)" },
   { name: "Arçelik Innovation Challenge", place: "3rd Place" },
