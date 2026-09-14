@@ -327,6 +327,24 @@ const PROJECTS = [
     ],
   },
   {
+    id: "cipherwhisp",
+    name: "CipherWhisp",
+    tagline: "Anonymous reports, encrypted before they leave the browser",
+    description:
+      "Lets anyone submit a report without logging in or revealing who they are. The browser encrypts the submission with RSA before it ever reaches the server, and the encrypted blob is stored on Walrus testnet so the record can't be edited after the fact. FastAPI backend, Next.js frontend.",
+    tags: ["Web3", "Full-Stack"],
+    stack: "FastAPI, Next.js, Walrus",
+    status: "Testnet",
+    image: "assets/projects/cipherwhisp.png",
+    thumbnail: "assets/projects/cipherwhisp-thumb.png",
+    initial: "C",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://cipher-whisp.vercel.app/" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/CipherWhisp" },
+    ],
+  },
+  {
     id: "somnia-arcade",
     name: "Somnia Arcade",
     tagline: "On-chain arcade with live participation",
