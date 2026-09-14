@@ -87,8 +87,7 @@ const PROJECTS = [
       "Winner, Intertech Metaverse Hackathon (prize: Meta Quest 2 VR)",
     ],
     links: [
-      { label: "Devpost ↗", url: "https://devpost.com/software/nature-foretold" },
-      { label: "Intertech event ↗", url: "https://coderspace.io/en/events/intertech-metaverse-hackathon/" },
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/nature-foretold" },
     ],
   },
   {
@@ -140,7 +139,7 @@ const PROJECTS = [
     awards: ["3rd Place ($5,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/TronPixels/TronPixels" },
-      { label: "Devpost ↗", url: "https://devpost.com/software/tronpixels" },
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/tronpixels" },
       { label: "Demo ↗", url: "https://youtu.be/YTk-nzvotZQ" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" },
     ],
@@ -159,7 +158,7 @@ const PROJECTS = [
     awards: ["Determination Prize ($4,500, Judges), TRON S5"],
     links: [
       { label: "Demo ↗", url: "https://youtu.be/5mlrMHrT4Dw" },
-      { label: "Submission ↗", url: "https://hackatrons5.hackerearth.com/challenges/hackathon/hackatron-s5/dashboard/f1e565d/submission/published/triton-2/submission/triton-2/" },
+      { label: "Hackathon page ↗", url: "https://hackatrons5.hackerearth.com/challenges/hackathon/hackatron-s5/dashboard/f1e565d/submission/published/triton-2/submission/triton-2/" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" },
     ],
   },
