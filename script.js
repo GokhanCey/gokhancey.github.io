@@ -79,7 +79,8 @@ const PROJECTS = [
     tags: ["Web3"],
     stack: "TRON blockchain",
     status: "TRON S3",
-    image: null,
+    image: "assets/projects/natureforetold.png",
+    thumbnail: "assets/projects/natureforetold-thumb.png",
     initial: "N",
     awards: [
       "2nd Place ($9,000, Community) and 5th Place ($5,000, Judges), TRON S3",
