@@ -235,7 +235,8 @@ const PROJECTS = [
     tags: ["AI/LLM", "Full-Stack"],
     stack: "Flask, Elasticsearch, Gemini",
     status: "In development",
-    image: null,
+    image: "assets/projects/codexa.png",
+    thumbnail: "assets/projects/codexa-thumb.png",
     initial: "C",
     awards: [],
     links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/Codexa" }],
@@ -246,7 +247,7 @@ const PROJECTS = [
     tagline: "A permanent wall of marks, stored on Walrus",
     description:
       "A wall where people leave a permanent mark: written text or a drawing, stored forever on the Walrus decentralized network and indexed by a Sui smart contract so anyone can see it. Claude reads each mark to identify the emotion behind it, and MemWal keeps that semantic memory searchable across sessions. Built with Lorenzo Porcelli.",
-    tags: ["Web3", "AI/LLM"],
+    tags: ["Research", "Web3", "AI/LLM"],
     stack: "React, Sui, Walrus, Claude API",
     status: "Testnet",
     image: "assets/projects/iwas.png",
@@ -280,7 +281,7 @@ const PROJECTS = [
     tagline: "An AI fairness engine for splitting shared costs",
     description:
       "Handles the messy, real-life parts of splitting a bill: the roommate who arrived late, the vegan who skipped the steak, the one who pays nothing. Gemini 2.0 Flash reads the situation to extract context, then a deterministic settlement engine does the actual math, keeping the two separated so the numbers never hallucinate. Every decision is logged to Opik for full observability.",
-    tags: ["AI/LLM", "Full-Stack"],
+    tags: ["Research", "AI/LLM", "Full-Stack"],
     stack: "Next.js, Gemini 2.0 Flash, Opik",
     status: "Prototype",
     image: "assets/projects/roomtab.png",
@@ -454,6 +455,7 @@ const TRON_AWARDS = [
 
 const OTHER_AWARDS = [
   { name: "Eterna, Amadeus Genesis Hack", place: "Winner · $15,000" },
+  { name: "MusiCoinCity, EDU Chain Hackathon", place: "5th Place · $1,500" },
   { name: "Intertech Metaverse Hackathon", place: "Winner · Meta Quest 2 VR" },
   { name: "HSBC Engagement Challenge", place: "2nd (National)" },
   { name: "Arçelik Innovation Challenge", place: "3rd Place · $1,000" },
