@@ -66,7 +66,6 @@ const PROJECTS = [
     initial: "M",
     awards: ["3rd Place ($8,000, Community) and 3rd Place ($10,000, Judges), TRON S3"],
     links: [
-      { label: "Hackathon page ↗", url: "https://devpost.com/software/metavotepoll" },
       { label: "Demo ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
     ],
@@ -87,9 +86,7 @@ const PROJECTS = [
       "2nd Place ($9,000, Community) and 5th Place ($5,000, Judges), TRON S3",
       "Winner, Intertech Metaverse Hackathon (prize: Meta Quest 2 VR)",
     ],
-    links: [
-      { label: "Hackathon page ↗", url: "https://devpost.com/software/nature-foretold" },
-    ],
+    links: [],
   },
   {
     id: "questarcade",
@@ -103,7 +100,6 @@ const PROJECTS = [
     initial: "Q",
     awards: ["Engagement Prize ($5,000, Special Mention), TRON S6"],
     links: [
-      { label: "Hackathon page ↗", url: "https://devpost.com/software/quest-arcade" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
     ],
   },
@@ -121,7 +117,6 @@ const PROJECTS = [
     initial: "A",
     awards: ["2nd Place ($5,000, Community), TRON S4"],
     links: [
-      { label: "Hackathon page ↗", url: "https://dorahacks.io/buidl/5179" },
       { label: "Demo ↗", url: "https://youtu.be/bpSQrcxO8lc" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/auroraqua-save-water-today/17328" },
     ],
@@ -141,7 +136,6 @@ const PROJECTS = [
     awards: ["3rd Place ($5,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/TronPixels/TronPixels" },
-      { label: "Hackathon page ↗", url: "https://devpost.com/software/tronpixels" },
       { label: "Demo ↗", url: "https://youtu.be/YTk-nzvotZQ" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" },
     ],
@@ -160,7 +154,6 @@ const PROJECTS = [
     awards: ["Determination Prize ($4,500, Judges), TRON S5"],
     links: [
       { label: "Demo ↗", url: "https://youtu.be/5mlrMHrT4Dw" },
-      { label: "Hackathon page ↗", url: "https://hackatrons5.hackerearth.com/challenges/hackathon/hackatron-s5/dashboard/f1e565d/submission/published/triton-2/submission/triton-2/" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" },
     ],
   },
@@ -194,7 +187,6 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/GabriKaste/IdleTron" },
-      { label: "Hackathon page ↗", url: "https://devpost.com/software/idletron" },
       { label: "Demo ↗", url: "https://youtu.be/-SvspL3jhvA" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/idletron-train-risk-free-trade-on-chain/32515" },
     ],
