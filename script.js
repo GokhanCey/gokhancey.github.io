@@ -83,7 +83,7 @@ const PROJECTS = [
     initial: "N",
     awards: [
       "2nd Place ($9,000, Community) and 5th Place ($5,000, Judges), TRON S3",
-      "Winner, Intertech Metaverse Hackathon (Meta Quest II)",
+      "Winner, Intertech Metaverse Hackathon (prize: Meta Quest 2 VR)",
     ],
     links: [
       { label: "Devpost ↗", url: "https://devpost.com/software/nature-foretold" },
@@ -333,10 +333,10 @@ const TRON_AWARDS = [
 
 const OTHER_AWARDS = [
   { name: "Eterna, Amadeus Genesis Hack", place: "Winner · $15,000" },
-  { name: "Intertech Metaverse Hackathon", place: "Winner" },
+  { name: "Intertech Metaverse Hackathon", place: "Winner · Meta Quest 2 VR" },
   { name: "HSBC Engagement Challenge", place: "2nd (National)" },
-  { name: "Arçelik Innovation Challenge", place: "3rd Place" },
-  { name: "Hack4MMO", place: "2nd Place" },
+  { name: "Arçelik Innovation Challenge", place: "3rd Place · $1,000" },
+  { name: "Hack4MMO", place: "2nd Place · $1,000" },
   { name: "KFC Ideathon", place: "2nd Place" },
   { name: "Malware Arena", place: "3rd Place · $1,500" },
 ];
