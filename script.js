@@ -445,7 +445,7 @@ const TRON_AWARDS = [
   { name: "Nature Foretold", place: "2nd + 5th Place · $14,000" },
   { name: "MetaVotePoll", place: "3rd Place ×2 · $18,000" },
   { name: "AurorAqua", place: "2nd Place · $5,000" },
-  { name: "MusiCoinCity", place: "2nd + 3rd Place · $19,000" },
+  { name: "MusiCoinCity", place: "2nd + 3rd Place (+ EDU Chain) · $20,500" },
   { name: "DreamVerser", place: "5th Place · $3,000" },
   { name: "Triton", place: "Determination Prize · $4,500" },
   { name: "QuestArcade", place: "Engagement Prize · $5,000" },
@@ -455,7 +455,6 @@ const TRON_AWARDS = [
 
 const OTHER_AWARDS = [
   { name: "Eterna, Amadeus Genesis Hack", place: "Winner · $15,000" },
-  { name: "MusiCoinCity, EDU Chain Hackathon", place: "5th Place · $1,500" },
   { name: "Intertech Metaverse Hackathon", place: "Winner · Meta Quest 2 VR" },
   { name: "HSBC Engagement Challenge", place: "2nd (National)" },
   { name: "Arçelik Innovation Challenge", place: "3rd Place · $1,000" },
