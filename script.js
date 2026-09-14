@@ -1,5 +1,5 @@
 // image: null uses the gradient placeholder tile until a real screenshot exists
-const SHOW_LIMIT = 18;
+const SHOW_LIMIT = 20;
 
 const PROJECTS = [
   {
@@ -515,38 +515,49 @@ function projectCardHTML(p) {
     </article>`;
 }
 
+let currentFilter = "all";
+let showAll = false;
+
+function updateProjectVisibility() {
+  const grid = document.getElementById("projectGrid");
+  const showMoreBtn = document.getElementById("showMoreBtn");
+  const cards = [...grid.querySelectorAll(".project-card")];
+
+  const matching = cards.filter(
+    (card) => currentFilter === "all" || card.dataset.tags.split(",").includes(currentFilter)
+  );
+  const overflow = currentFilter === "all" && !showAll && matching.length > SHOW_LIMIT;
+
+  cards.forEach((card) => (card.style.display = "none"));
+  matching.forEach((card, i) => {
+    card.style.display = overflow && i >= SHOW_LIMIT ? "none" : "";
+  });
+
+  showMoreBtn.hidden = !overflow;
+  showMoreBtn.textContent = `Show all ${PROJECTS.length} projects`;
+}
+
 function renderProjects() {
   const grid = document.getElementById("projectGrid");
   const showMoreBtn = document.getElementById("showMoreBtn");
-  const overflow = PROJECTS.length > SHOW_LIMIT;
 
-  const visible = overflow ? PROJECTS.slice(0, SHOW_LIMIT) : PROJECTS;
-  const hidden = overflow ? PROJECTS.slice(SHOW_LIMIT) : [];
-
-  grid.innerHTML = visible.map(projectCardHTML).join("");
-  showMoreBtn.hidden = !overflow;
-  showMoreBtn.textContent = `Show all ${PROJECTS.length} projects`;
-
+  grid.innerHTML = PROJECTS.map(projectCardHTML).join("");
   grid.querySelectorAll(".project-card").forEach((card) => {
     card.addEventListener("click", () => openModal(card.dataset.id));
   });
 
   showMoreBtn.addEventListener("click", () => {
-    grid.insertAdjacentHTML("beforeend", hidden.map(projectCardHTML).join(""));
-    grid.querySelectorAll(".project-card:not([data-bound])").forEach((card) => {
-      card.setAttribute("data-bound", "1");
-      card.addEventListener("click", () => openModal(card.dataset.id));
-    });
-    showMoreBtn.hidden = true;
+    showAll = true;
+    updateProjectVisibility();
   });
+
+  updateProjectVisibility();
 }
 
 function applyFilter(filter) {
-  document.querySelectorAll(".project-card").forEach((card) => {
-    const tags = card.dataset.tags.split(",");
-    const show = filter === "all" || tags.includes(filter);
-    card.style.display = show ? "" : "none";
-  });
+  currentFilter = filter;
+  showAll = false;
+  updateProjectVisibility();
 }
 
 function renderAwards() {
