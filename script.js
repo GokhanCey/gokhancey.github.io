@@ -66,6 +66,7 @@ const PROJECTS = [
     initial: "M",
     awards: ["3rd Place ($8,000, Community) and 3rd Place ($10,000, Judges), TRON S3"],
     links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/MetaVotePoll" },
       { label: "Demo ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
     ],
@@ -96,10 +97,12 @@ const PROJECTS = [
     tags: ["Web3"],
     stack: "TRON blockchain",
     status: "TRON S6",
-    image: null,
+    image: "assets/projects/questarcade.png",
+    thumbnail: "assets/projects/questarcade-thumb.png",
     initial: "Q",
     awards: ["Engagement Prize ($5,000, Special Mention), TRON S6"],
     links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/QuestArcade" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
     ],
   },
@@ -117,6 +120,7 @@ const PROJECTS = [
     initial: "A",
     awards: ["2nd Place ($5,000, Community), TRON S4"],
     links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/AurorAqua" },
       { label: "Demo ↗", url: "https://youtu.be/bpSQrcxO8lc" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/auroraqua-save-water-today/17328" },
     ],
@@ -153,6 +157,7 @@ const PROJECTS = [
     initial: "T",
     awards: ["Determination Prize ($4,500, Judges), TRON S5"],
     links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/Triton" },
       { label: "Demo ↗", url: "https://youtu.be/5mlrMHrT4Dw" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" },
     ],
@@ -165,10 +170,12 @@ const PROJECTS = [
     tags: ["Web3"],
     stack: "TRON blockchain",
     status: "TRON S5",
-    image: null,
+    image: "assets/projects/dreamverser.png",
+    thumbnail: "assets/projects/dreamverser-thumb.png",
     initial: "D",
     awards: ["5th Place ($3,000, Community), TRON S5"],
     links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/DreamVerser" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" },
     ],
   },
