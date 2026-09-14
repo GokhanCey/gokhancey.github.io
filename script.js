@@ -46,7 +46,10 @@ const PROJECTS = [
     image: "assets/projects/musicoincity.png",
     thumbnail: "assets/projects/musicoincity-thumb.png",
     initial: "M",
-    awards: ["2nd Place ($15,000, Judges) and 3rd Place ($4,000, Community), TRON S4"],
+    awards: [
+      "2nd Place ($15,000, Judges) and 3rd Place ($4,000, Community), TRON S4",
+      "5th Place ($1,500), EDU Chain Hackathon",
+    ],
     links: [
       { label: "Source ↗", url: "https://github.com/gokhancey/MusiCoinCity" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
@@ -87,7 +90,11 @@ const PROJECTS = [
       "2nd Place ($9,000, Community) and 5th Place ($5,000, Judges), TRON S3",
       "Winner, Intertech Metaverse Hackathon (prize: Meta Quest 2 VR)",
     ],
-    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/NatureForeTold" }],
+    links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/NatureForeTold" },
+      { label: "Demo ↗", url: "https://youtu.be/zd-aXcVc9-I" },
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/nature-foretold" },
+    ],
   },
   {
     id: "questarcade",
@@ -103,6 +110,7 @@ const PROJECTS = [
     awards: ["Engagement Prize ($5,000, Special Mention), TRON S6"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/QuestArcade" },
+      { label: "Demo ↗", url: "https://youtu.be/l-cZWGN1XZM" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
     ],
   },
@@ -176,6 +184,7 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S5"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/DreamVerser" },
+      { label: "Demo ↗", url: "https://youtu.be/EGtBEsJ9MEo" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" },
     ],
   },
@@ -222,17 +231,14 @@ const PROJECTS = [
     name: "Codexa",
     tagline: "Evidence-based answers over your own documents",
     description:
-      "Built to make AI answers reliable by grounding them in real data instead of guesses. Codexa connects Elasticsearch with Google Gemini: upload PDFs or text, it indexes them, retrieves context, and returns a verified, evidence-based answer instead of a hallucination.",
+      "Built to make AI answers reliable by grounding them in real data instead of guesses. Upload a PDF or text file, and Codexa indexes it in Elasticsearch, retrieves the relevant context for a question, and has Gemini turn that into a concise, evidence-based answer instead of a hallucination. Ships with a dashboard and a per-user API key so the same pipeline can be called from other apps.",
     tags: ["AI/LLM", "Full-Stack"],
-    stack: "Vue, Elasticsearch, Gemini",
+    stack: "Flask, Elasticsearch, Gemini",
     status: "In development",
     image: null,
     initial: "C",
     awards: [],
-    links: [
-      { label: "Website ↗", url: "https://thecodexa.com" },
-      { label: "Source ↗", url: "https://github.com/GokhanCey/Codexa" },
-    ],
+    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/Codexa" }],
   },
   {
     id: "iwas",
@@ -342,6 +348,75 @@ const PROJECTS = [
     links: [
       { label: "Live site ↗", url: "https://cipher-whisp.vercel.app/" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/CipherWhisp" },
+    ],
+  },
+  {
+    id: "hashmark-ai",
+    name: "Hashmark AI",
+    tagline: "An AI-powered document notary on Hedera",
+    description:
+      "Upload a file, pay per notarization in HBAR, and get a permanent, verifiable proof it existed at that moment. Each notarization is hashed locally, summarized by AI, and written to Hedera File Service; an agent then picks up the event over Hedera Consensus Service, runs extra checks, and streams a signed attestation back in real time.",
+    tags: ["Web3", "AI/LLM"],
+    stack: "Node.js, Hedera, OpenAI API",
+    status: "Testnet",
+    image: "assets/projects/hashmark-ai.png",
+    thumbnail: "assets/projects/hashmark-ai-thumb.png",
+    initial: "H",
+    awards: [],
+    links: [
+      { label: "Source ↗", url: "https://github.com/GokhanCey/Hashmark-AI" },
+      { label: "Demo ↗", url: "https://youtu.be/iIN9IGHpqgY" },
+    ],
+  },
+  {
+    id: "mezopay",
+    name: "MezoPay",
+    tagline: "MUSD payment infrastructure for Bitcoin-backed commerce",
+    description:
+      "Lets any merchant accept MUSD payments (one-time, subscription, or pay-per-use) by sharing a link, with settlement going straight wallet-to-wallet on-chain, no bank or intermediary in the loop. Includes a merchant dashboard, a permissionless keeper that collects recurring charges, and a webhook system so other apps can react to payments in real time.",
+    tags: ["Web3", "Full-Stack"],
+    stack: "Solidity, Node.js, React",
+    status: "Testnet",
+    image: "assets/projects/mezopay.png",
+    thumbnail: "assets/projects/mezopay-thumb.png",
+    initial: "M",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://mezo-pay-three.vercel.app/" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/MezoPay" },
+    ],
+  },
+  {
+    id: "wasatext",
+    name: "WASAText",
+    tagline: "A WhatsApp-style messenger built end to end for a systems course",
+    description:
+      "A messaging web app built from scratch for the Web and Software Architecture course: an OpenAPI 3.0 spec, a Go REST backend with SQLite and bearer-token auth, and a Vue 3 single-page frontend that polls for new messages, all containerized with multi-stage Docker builds.",
+    tags: ["Full-Stack"],
+    stack: "Go, Vue.js, SQLite, Docker",
+    status: "University project",
+    image: "assets/projects/wasatext.png",
+    thumbnail: "assets/projects/wasatext-thumb.png",
+    initial: "W",
+    awards: [],
+    links: [{ label: "Source ↗", url: "https://github.com/GokhanCey/WASAText" }],
+  },
+  {
+    id: "fastmap",
+    name: "FastMap",
+    tagline: "Cutting a core ZK operation by 47x, in the browser",
+    description:
+      "A proof-of-concept implementing the constraint-friendly map-to-elliptic-curve-group relations from a Groth et al. paper, replacing the expensive hash-to-group functions (SHA-256, Poseidon) used in zero-knowledge circuits with a lightweight increment-and-check method. The result: mapping a field element onto a Grumpkin curve point takes just 16 ACIR constraints, about 47x fewer than Poseidon. Includes the Noir circuit, an automated benchmark suite comparing it against standard hash-to-group approaches, and a live dashboard that generates a real proof client-side via a WASM prover, no server involved.",
+    tags: ["Research", "Web3"],
+    stack: "Noir, Rust, React",
+    status: "Proof of Concept",
+    image: "assets/projects/fastmap.png",
+    thumbnail: "assets/projects/fastmap-thumb.png",
+    initial: "F",
+    awards: [],
+    links: [
+      { label: "Live site ↗", url: "https://fast-map-lemon.vercel.app/" },
+      { label: "Source ↗", url: "https://github.com/GokhanCey/FastMap" },
     ],
   },
   {
