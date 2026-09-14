@@ -66,8 +66,9 @@ const PROJECTS = [
     initial: "M",
     awards: ["3rd Place ($8,000, Community) and 3rd Place ($10,000, Judges), TRON S3"],
     links: [
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/metavotepoll" },
       { label: "Demo ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
+      { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
     ],
   },
   {
@@ -102,6 +103,7 @@ const PROJECTS = [
     initial: "Q",
     awards: ["Engagement Prize ($5,000, Special Mention), TRON S6"],
     links: [
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/quest-arcade" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
     ],
   },
@@ -192,6 +194,7 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/GabriKaste/IdleTron" },
+      { label: "Hackathon page ↗", url: "https://devpost.com/software/idletron" },
       { label: "Demo ↗", url: "https://youtu.be/-SvspL3jhvA" },
       { label: "Forum post ↗", url: "https://forum.trondao.org/t/idletron-train-risk-free-trade-on-chain/32515" },
     ],
