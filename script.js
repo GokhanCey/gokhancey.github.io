@@ -184,7 +184,7 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S5"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/DreamVerser" },
-      { label: "Demo Video ↗", url: "https://youtu.be/EGtBEsJ9MEo" },
+      { label: "Demo Video ↗", url: "https://youtu.be/Wq6IbUUTWMU" },
       { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" },
     ],
   },
