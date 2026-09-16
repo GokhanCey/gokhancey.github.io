@@ -146,6 +146,7 @@ img { display: block; max-width: 100%; }
   color: #fff7ee;
 }
 .btn-primary:hover { background: var(--red-dark); }
+.is-disabled { opacity: 0.45; pointer-events: none; cursor: not-allowed; }
 
 .btn-outline {
   border-color: var(--border-strong);

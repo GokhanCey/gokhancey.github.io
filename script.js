@@ -17,7 +17,7 @@ const PROJECTS = [
     awards: [],
     links: [
       { label: "Read the thesis ↗", url: "assets/ceylan-thesis.pdf" },
-      { label: "View on ACM DL ↗", url: "https://doi.org/10.1145/3776591.3832512" },
+      { label: "View on ACM DL ↗", url: "https://doi.org/10.1145/3776591.3832512", disabled: true },
     ],
   },
   {
@@ -585,8 +585,13 @@ function openModal(id) {
     ? `<h4>Awards</h4><ul>${project.awards.map((a) => `<li>🏆 ${a}</li>`).join("")}</ul>`
     : "";
   document.getElementById("modalLinks").innerHTML =
-    project.links.map((l) => `<a href="${l.url}" target="_blank" rel="noopener" class="btn btn-sm btn-primary">${l.label}</a>`).join("") ||
-    `<span style="color:var(--text-faint); font-size:14px;">No public link yet.</span>`;
+    project.links
+      .map((l) =>
+        l.disabled
+          ? `<span class="btn btn-sm btn-primary is-disabled" aria-disabled="true">${l.label}</span>`
+          : `<a href="${l.url}" target="_blank" rel="noopener" class="btn btn-sm btn-primary">${l.label}</a>`
+      )
+      .join("") || `<span style="color:var(--text-faint); font-size:14px;">No public link yet.</span>`;
 
   backdrop.classList.add("is-open");
   document.body.style.overflow = "hidden";
