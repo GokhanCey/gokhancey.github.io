@@ -221,7 +221,6 @@ const PROJECTS = [
     initial: "K",
     awards: [],
     links: [
-      { label: "Website ↗", url: "https://seikitapp.com" },
       { label: "Source ↗", url: "https://github.com/SeiKitApp/SeiKitApp" },
       { label: "Demo Video ↗", url: "https://youtu.be/OGs72C_argM" },
     ],
