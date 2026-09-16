@@ -52,8 +52,8 @@ const PROJECTS = [
     ],
     links: [
       { label: "Source ↗", url: "https://github.com/gokhancey/MusiCoinCity" },
-      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
       { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=ANK0Eddk_Ko" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
     ],
   },
   {
@@ -435,8 +435,8 @@ const PROJECTS = [
     awards: ["2nd Prize, Somnia Mini Games Hackathon"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/SomniaArcade" },
-      { label: "Hackathon page ↗", url: "https://dorahacks.io/buidl/29985" },
       { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=CUiuyEotrM4" },
+      { label: "Hackathon page ↗", url: "https://dorahacks.io/buidl/29985" },
     ],
   },
 ];
