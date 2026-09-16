@@ -52,8 +52,8 @@ const PROJECTS = [
     ],
     links: [
       { label: "Source ↗", url: "https://github.com/gokhancey/MusiCoinCity" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
-      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=ANK0Eddk_Ko" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/musicoincity-myriad-places-exclusive-sounds/17266" },
+      { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=ANK0Eddk_Ko" },
     ],
   },
   {
@@ -70,8 +70,8 @@ const PROJECTS = [
     awards: ["3rd Place ($8,000, Community) and 3rd Place ($10,000, Judges), TRON S3"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/MetaVotePoll" },
-      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
+      { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=4iAkU2jn5HQ" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/raph-strategy-your-modern-voting-platform/11022" },
     ],
   },
   {
@@ -92,7 +92,7 @@ const PROJECTS = [
     ],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/NatureForeTold" },
-      { label: "Demo ↗", url: "https://youtu.be/zd-aXcVc9-I" },
+      { label: "Demo Video ↗", url: "https://youtu.be/zd-aXcVc9-I" },
       { label: "Hackathon page ↗", url: "https://devpost.com/software/nature-foretold" },
     ],
   },
@@ -110,8 +110,8 @@ const PROJECTS = [
     awards: ["Engagement Prize ($5,000, Special Mention), TRON S6"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/QuestArcade" },
-      { label: "Demo ↗", url: "https://youtu.be/l-cZWGN1XZM" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
+      { label: "Demo Video ↗", url: "https://youtu.be/l-cZWGN1XZM" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/questarcade-relaxing-and-more-relaxing-is-just-a-click-away/23696" },
     ],
   },
   {
@@ -129,8 +129,8 @@ const PROJECTS = [
     awards: ["2nd Place ($5,000, Community), TRON S4"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/AurorAqua" },
-      { label: "Demo ↗", url: "https://youtu.be/bpSQrcxO8lc" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/auroraqua-save-water-today/17328" },
+      { label: "Demo Video ↗", url: "https://youtu.be/bpSQrcxO8lc" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/auroraqua-save-water-today/17328" },
     ],
   },
   {
@@ -148,8 +148,8 @@ const PROJECTS = [
     awards: ["3rd Place ($5,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/TronPixels/TronPixels" },
-      { label: "Demo ↗", url: "https://youtu.be/YTk-nzvotZQ" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" },
+      { label: "Demo Video ↗", url: "https://youtu.be/YTk-nzvotZQ" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/tronpixels-no-limits-just-pixels/27560" },
     ],
   },
   {
@@ -166,8 +166,8 @@ const PROJECTS = [
     awards: ["Determination Prize ($4,500, Judges), TRON S5"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/Triton" },
-      { label: "Demo ↗", url: "https://youtu.be/5mlrMHrT4Dw" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" },
+      { label: "Demo Video ↗", url: "https://youtu.be/5mlrMHrT4Dw" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/triton-join-us-take-the-crypto-quiz-win-a-victory/19975" },
     ],
   },
   {
@@ -184,8 +184,8 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S5"],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/DreamVerser" },
-      { label: "Demo ↗", url: "https://youtu.be/EGtBEsJ9MEo" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" },
+      { label: "Demo Video ↗", url: "https://youtu.be/EGtBEsJ9MEo" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/dreamverser-spread-your-dreams-to-the-world-via-tron/20080" },
     ],
   },
   {
@@ -203,8 +203,8 @@ const PROJECTS = [
     awards: ["5th Place ($3,000, Community), TRON S7"],
     links: [
       { label: "Source ↗", url: "https://github.com/GabriKaste/IdleTron" },
-      { label: "Demo ↗", url: "https://youtu.be/-SvspL3jhvA" },
-      { label: "Forum post ↗", url: "https://forum.trondao.org/t/idletron-train-risk-free-trade-on-chain/32515" },
+      { label: "Demo Video ↗", url: "https://youtu.be/-SvspL3jhvA" },
+      { label: "Hackathon page ↗", url: "https://forum.trondao.org/t/idletron-train-risk-free-trade-on-chain/32515" },
     ],
   },
   {
@@ -223,7 +223,7 @@ const PROJECTS = [
     links: [
       { label: "Website ↗", url: "https://seikitapp.com" },
       { label: "Source ↗", url: "https://github.com/SeiKitApp/SeiKitApp" },
-      { label: "Demo ↗", url: "https://youtu.be/OGs72C_argM" },
+      { label: "Demo Video ↗", url: "https://youtu.be/OGs72C_argM" },
     ],
   },
   {
@@ -257,7 +257,7 @@ const PROJECTS = [
     links: [
       { label: "Live site ↗", url: "https://iwas.app/" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/iwas" },
-      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=oxmX_fY8QaI" },
+      { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=oxmX_fY8QaI" },
     ],
   },
   {
@@ -291,7 +291,7 @@ const PROJECTS = [
     links: [
       { label: "Live site ↗", url: "https://room-tab.vercel.app/" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/RoomTab" },
-      { label: "Demo ↗", url: "https://youtu.be/DkIFt4YB28s" },
+      { label: "Demo Video ↗", url: "https://youtu.be/DkIFt4YB28s" },
     ],
   },
   {
@@ -310,7 +310,7 @@ const PROJECTS = [
     links: [
       { label: "Live site ↗", url: "https://eterna-rust.vercel.app" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/Eterna" },
-      { label: "Demo ↗", url: "https://youtu.be/ZAbGLFOoDc8" },
+      { label: "Demo Video ↗", url: "https://youtu.be/ZAbGLFOoDc8" },
       { label: "Hackathon page ↗", url: "https://taikai.network/amadeus/hackathons/amadeus/projects/cmjk7okli00opgpl2tkfm15ts/idea" },
     ],
   },
@@ -330,7 +330,7 @@ const PROJECTS = [
     links: [
       { label: "Live site ↗", url: "https://pixel-africa.vercel.app" },
       { label: "Source ↗", url: "https://github.com/GokhanCey/pixel-africa" },
-      { label: "Demo ↗", url: "https://youtu.be/7joHzZael3o" },
+      { label: "Demo Video ↗", url: "https://youtu.be/7joHzZael3o" },
     ],
   },
   {
@@ -366,7 +366,7 @@ const PROJECTS = [
     awards: [],
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/Hashmark-AI" },
-      { label: "Demo ↗", url: "https://youtu.be/iIN9IGHpqgY" },
+      { label: "Demo Video ↗", url: "https://youtu.be/iIN9IGHpqgY" },
     ],
   },
   {
@@ -436,7 +436,7 @@ const PROJECTS = [
     links: [
       { label: "Source ↗", url: "https://github.com/GokhanCey/SomniaArcade" },
       { label: "Hackathon page ↗", url: "https://dorahacks.io/buidl/29985" },
-      { label: "Demo ↗", url: "https://www.youtube.com/watch?v=CUiuyEotrM4" },
+      { label: "Demo Video ↗", url: "https://www.youtube.com/watch?v=CUiuyEotrM4" },
     ],
   },
 ];
