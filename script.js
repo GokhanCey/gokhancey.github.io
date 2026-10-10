@@ -17,7 +17,7 @@ const PROJECTS = [
     awards: [],
     links: [
       { label: "Read the thesis ↗", url: "assets/ceylan-thesis.pdf" },
-      { label: "View on ACM DL ↗", url: "https://doi.org/10.1145/3776591.3832512", disabled: true },
+      { label: "View on ACM DL ↗", url: "https://doi.org/10.1145/3776591.3832512" },
     ],
   },
   {
